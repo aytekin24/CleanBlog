@@ -1,0 +1,27 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "\"# CleanBlog\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aytekin24/CleanBlog.git"
+  },
+  "author": "Fatma Aytekin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aytekin24/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/aytekin24/CleanBlog#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
